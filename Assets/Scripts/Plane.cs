@@ -13,12 +13,26 @@ public class Plane : MonoBehaviour
         //簡單的左右控制，這個範例與過去的貓咪移動都是類似的
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            gameObject.transform.position += new Vector3(moveSpeed, 0, 0) * Time.deltaTime;
+            if (transform.position.x <= 2.5f)
+                gameObject.transform.position += new Vector3(moveSpeed, 0, 0) * Time.deltaTime;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            gameObject.transform.position += new Vector3(-moveSpeed, 0, 0) * Time.deltaTime;
+            if (transform.position.x >= -2.5f)
+                gameObject.transform.position += new Vector3(-moveSpeed, 0, 0) * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (transform.position.y <= 5)
+                gameObject.transform.position += new Vector3(0, moveSpeed, 0) * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if (transform.position.y >= -5)
+                gameObject.transform.position += new Vector3(0, -moveSpeed, 0) * Time.deltaTime;
         }
     }
 

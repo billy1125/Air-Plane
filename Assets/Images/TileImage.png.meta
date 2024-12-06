@@ -2830,13 +2830,13 @@ TextureImporter:
       name: TileImage_130
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 896
-        width: 128
-        height: 128
+        x: 1923
+        y: 900
+        width: 124
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2851,10 +2851,10 @@ TextureImporter:
       name: TileImage_131
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 896
-        width: 128
-        height: 128
+        x: 2069
+        y: 917
+        width: 91
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2935,10 +2935,10 @@ TextureImporter:
       name: TileImage_135
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 896
-        width: 128
-        height: 128
+        x: 2576
+        y: 915
+        width: 101
+        height: 99
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2957,12 +2957,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2688
-        y: 896
-        width: 128
-        height: 128
+        y: 902
+        width: 127
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
