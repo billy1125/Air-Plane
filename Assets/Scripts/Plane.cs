@@ -50,7 +50,7 @@ public class Plane : MonoBehaviour
     {
         Instantiate(ExplosionPrefab, transform.position, transform.rotation); //在碰撞的位置產生爆炸
 
-        if (collision.tag == "Enemy") //如果碰撞的標籤是Enemy
+        if (collision.tag == "Enemy" || collision.tag == "EnemyBullet") //如果碰撞的標籤是Enemy
         {
             Destroy(gameObject); //刪除戰機物件
         }

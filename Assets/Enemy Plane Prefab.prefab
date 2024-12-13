@@ -110,7 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426f226dc35b3f34f8978b0a6815f350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 2
+  MoveSpeed: 3
+  EnemyBulletPrefab: {fileID: 8991017369710033433, guid: 9898df2b5fe544f44bad489accf6a184, type: 3}
+  span: 0.5
+  delta: 0
 --- !u!1 &5154997954356935762
 GameObject:
   m_ObjectHideFlags: 0
